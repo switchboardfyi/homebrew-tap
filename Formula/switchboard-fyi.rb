@@ -1,8 +1,8 @@
 class SwitchboardFyi < Formula
   desc "Local model-routing CLI for Codex and Claude Code"
   homepage "https://www.switchboard.fyi"
-  url "https://registry.npmjs.org/switchboard-fyi/-/switchboard-fyi-0.1.0.tgz"
-  sha256 "57e6bccd16d99b1db0e559e61777327d560307e66491dbb693e0961caad89152"
+  url "https://registry.npmjs.org/switchboard-fyi/-/switchboard-fyi-0.2.0.tgz"
+  sha256 "30cae2ac798908a8a8efafe52ef4c243b5f18918de628af5347c6f5fc5f940c3"
   license "MIT"
 
   depends_on "node"

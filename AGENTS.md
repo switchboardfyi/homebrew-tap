@@ -13,14 +13,8 @@ cd ../cli
 npm run release:homebrew -- --tap ../homebrew-tap
 ```
 
-Then commit this repo:
-
-```bash
-cd ../homebrew-tap
-git add Formula/switchboard-fyi.rb
-git commit -m "Update switchboard-fyi to x.y.z"
-git push origin main
-```
+That command updates this formula, commits it, pushes `main`, and verifies the
+remote tap formula points at the npm registry tarball.
 
 Verify after pushing:
 
